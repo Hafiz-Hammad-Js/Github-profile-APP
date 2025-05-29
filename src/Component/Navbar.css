@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "noto";
+    src: url("../../public/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}
+
+.navLink{
+   margin: auto;
+}
+
+.links>img{
+    margin-right: 7px !important;
+}
+.navbar{
+    background-color: #0D1117;
+    border-bottom: 2px solid #8f9092;
+
+}
+
+.links{
+    font-family: "noto", sans-serif !important;
+    color: #C9D1D9 !important;
+    margin-right: 40px !important;
+}
+
+.active{
+    border-bottom: 2px solid #F78166 !important;
+}
+
+.active:hover{
+    border-bottom: 3px solid #f32d00 !important;
+}
+
+.span{
+    border-radius: 50%;
+    background-color: #6E768166;
+    padding: 8px;
+    color: #C9D1D9;
+}

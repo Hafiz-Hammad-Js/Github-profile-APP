@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "noto";
+    src: url("../../public/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}
+
+
+
+.userImage {
+    width: 296px;
+    height: 296px;
+    border-radius: 50%;
+    background-color: #cfcfcf;
+    margin-top: 20px;
+}
+
+.userName {
+    font-family: "noto";
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #C9D1D9;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.userSubName {
+    font-family: "noto";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #8B949E;
+    text-align: center;
+}
+
+.userDescription {
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #C9D1D9;
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    text-align: center;
+}
+
+.fol {
+    font-family: "noto";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #cfd5dd;
+    margin-top: 20px;
+}
+
+.follower {
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #C9D1D9;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.locaion {
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #C9D1D9;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.inputwork {
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #C9D1D9;
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #757679;
+    text-align: center;
+}
+
+.bttn {
+    width: 280px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid #C9D1D9;
+    padding: 8px;
+    background-color: #F0F6FC1A;
+    color: #C9D1D9;
+    font-family: "noto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.githubParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.searchForm{
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: #0D1117 !important;
+}
