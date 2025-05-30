@@ -15,13 +15,13 @@ const NavbarBar = (props) => {
                     <Navbar.Collapse id="basic-navbar-nav bg-light">
                         <Nav className="me-auto navLink">
 
-                            <Nav.Link href="#home" className='links active'><img src="../../public/images/Frame.png"/> Profile</Nav.Link>
+                            <Nav.Link href="#home" className='links active'><img src="../../images/Frame.png"/> Profile</Nav.Link>
 
-                            <Nav.Link  className='links'><img src="../../public/images/Vector (11).png"/> Repositories <span className='span'>{props.repo || 0}</span></Nav.Link>
+                            <Nav.Link  className='links'><img src="../../images/Vector (11).png"/> Repositories <span className='span'>{props.repo || 0}</span></Nav.Link>
 
-                            <Nav.Link  className='links'><img src="../../public/images/Frame (1).png"/> Projects </Nav.Link>
+                            <Nav.Link  className='links'><img src="../../images/Frame (1).png"/> Projects </Nav.Link>
 
-                            <Nav.Link className='links'><img src="../../public/images/acha.png"/> Stars </Nav.Link>
+                            <Nav.Link className='links'><img src="../../images/acha.png"/> Stars </Nav.Link>
                             
                         </Nav>
                     </Navbar.Collapse>

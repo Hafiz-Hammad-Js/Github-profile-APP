@@ -52,9 +52,9 @@ const Github = () => {
                         <p className="userDescription">{profile.bio}</p>
 
 
-                        <p className="follower"><img src="../../public/images/work.png" /> <span className="fol">{profile.followers}</span > followers . <span className="fol">{profile.following}</span> following</p>
+                        <p className="follower"><img src="../..//images/work.png" /> <span className="fol">{profile.followers}</span > followers . <span className="fol">{profile.following}</span> following</p>
 
-                        <p className="locaion"><img src="../../public/images/check.png" /> {profile.location}</p>
+                        <p className="locaion"><img src="../../images/check.png" /> {profile.location}</p>
 
                         <form className="searchForm">
                             <div>
