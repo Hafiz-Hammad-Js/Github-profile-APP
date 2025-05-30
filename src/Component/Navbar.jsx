@@ -3,9 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css'; 
 
-const NavbarBar = () => {
+const NavbarBar = (props) => {
+    console.log('bahi wala',props.repo);
     return (
         <>
+        
             <Navbar  sticky="top" expand="lg" className="navbar">
                 <Container>
                     
@@ -15,7 +17,7 @@ const NavbarBar = () => {
 
                             <Nav.Link href="#home" className='links active'><img src="../../public/images/Frame.png"/> Profile</Nav.Link>
 
-                            <Nav.Link  className='links'><img src="../../public/images/Vector (11).png"/> Repositories <span className='span'>18</span></Nav.Link>
+                            <Nav.Link  className='links'><img src="../../public/images/Vector (11).png"/> Repositories <span className='span'>{props.repo || 0}</span></Nav.Link>
 
                             <Nav.Link  className='links'><img src="../../public/images/Frame (1).png"/> Projects </Nav.Link>
 
